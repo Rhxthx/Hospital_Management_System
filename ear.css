@@ -1,0 +1,118 @@
+
+.carousel-item {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+
+
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+    /* object-fit: contain; */
+    /* height: 100%;
+    width: 100%;
+    object-fit: cover; */
+}
+
+.heading {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.para {
+    text-align: center;
+}
+
+.container {
+    height: 100px;
+}
+
+/* .carousel-inner{
+    height: 300px;
+  } */
+.card2 {
+    width: 80%;
+    margin-right: 100px;
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+    color: #27cf18;
+    padding: 2%;
+}
+.image {
+    width: 500vw;
+    height: 20vw;
+}
+
+.card3 {
+    width: 80%;
+    margin-left: 100px;
+}
+
+.card1 {
+    width: 90%;
+    margin-left: 50px;
+}
+
+.card2 {
+    width: 80%;
+    margin-right: 100px;
+}
+
+.cardStyle{
+    width: 70px !important;  /* Set width */
+      height: 70px !important; /* Set height */
+      object-fit: cover;       /* Maintain aspect ratio without distortion */
+      display: block;          /* Ensure it behaves like a block element */
+      margin: 0 auto;
+      background: transparent;
+}
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures that content is spaced out evenly */
+    height: 150px; /* Set a fixed height */
+    overflow: hidden; /* Hides overflow if content exceeds */
+  }
+  .head{
+    color:darkblue;
+  }
+  .container1{
+    text-align: center;
+
+  }
+  .card-title.sub{
+    color:darkblue ;
+    text-align: center;
+  }
+  .sub1{
+    font-weight: 500;
+    font-style: italic;
+  }
+  .sub2{
+    color: darkblue;
+  }
+  .cardbg{
+    background-color:rgb(178, 178, 206)
+  }
+  .card.mycard{
+    border: 1px solid black;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .cardhead{
+    color:darkblue;
+    text-align: center;
+  }
+  .card-title{
+    text-align: center;
+  }
+  .container2{
+    background-color: rgb(244, 242, 244);
+  }
+
+

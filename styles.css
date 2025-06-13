@@ -1,0 +1,71 @@
+
+.form-control{
+    padding: 20px;
+    font-size: 20px;
+    color:blue;
+    text-align: center;
+    background-color:rgb(181, 181, 216)
+    /* margin-left: 90px; */
+}
+.name{
+    padding:20px;
+    align-items: end;
+    width:500px;
+    height:20px;
+    border-radius:5px;
+	border:1px solid #000;
+	/* margin-left: 140px; */
+    margin-top: 1px;
+}
+.age{
+    padding:20px;
+    align-items: end;
+    width:500px;
+    height:20px;
+    border-radius:5px;
+	border:1px solid #000;
+	/* margin-left: 180px; */
+    margin-top: 1px;   
+}
+ .form-select1{ 
+     padding:10px; 
+     width:500px; 
+     border-radius:5px; 
+	 border:1px solid #000;
+	 /* margin-left: 150px;     */
+ }
+ .form-select2{
+    padding:10px; 
+    width:500px; 
+    border-radius:5px; 
+    border:1px solid #000;
+    /* margin-left: 190px;  */
+ }
+ .app{
+    padding:10px; 
+    width:500px; 
+    border-radius:5px; 
+    border:1px solid #000;
+    /* margin-left: 70px;  */
+ }
+ .add{
+    padding:10px; 
+    width:500px; 
+    border-radius:5px; 
+    border:1px solid #000;
+    /* margin-left: 160px;  */
+ }
+ .mob{
+    padding:10px; 
+    width:500px; 
+    border-radius:5px; 
+    border:1px solid #000;
+    /* margin-left: 130px;  */
+ }
+ .heading{
+    font-size: 40px;
+    text-align: center;
+    color:rgb(35, 20, 199);
+    margin-top: 50px;
+    margin-bottom: 70px;
+ }

@@ -1,68 +1,85 @@
-.form-control{
-    padding: 50px;
-    font-size: 20px;
-    color:blue;
-    text-align: center;
-    background-color:rgb(181, 181, 216)
-    /* margin-left: 90px; */
+*{
+	font-family: aerial;
+	margin: 0;
+border: border-box;
 }
-.name{
-    padding:20px;
-    align-items: end;
-    width:500px;
-    height:20px;
-    border-radius:5px;
-	border:1px solid #000;
-	margin-left: 140px;
-    margin-top: 1px;
+h1{
+	font-family: "Roboto";
+	font-weight: 600;
+color: #fff;
+text-align: center;
+padding: 10px;
+
+
+
 }
-.age{
-    padding:20px;
-    align-items: end;
-    width:500px;
-    height:20px;
-    border-radius:5px;
-	border:1px solid #000;
-	margin-left: 180px;
-    margin-top: 1px;   
+.col{
+	display: flex;
+	
 }
- .form-select1{ 
-     padding:10px; 
-     width:500px; 
-     border-radius:5px; 
-	 border:1px solid #000;
-	 margin-left: 150px;    
- }
- .form-select2{
-    padding:10px; 
-    width:500px; 
-    border-radius:5px; 
-    border:1px solid #000;
-    margin-left: 190px; 
- }
- .app{
-    padding:10px; 
-    width:500px; 
-    border-radius:5px; 
-    border:1px solid #000;
-    margin-left: 70px; 
- }
- .add{
-    padding:10px; 
-    width:500px; 
-    border-radius:5px; 
-    border:1px solid #000;
-    margin-left: 160px; 
- }
- .mob{
-    padding:10px; 
-    width:500px; 
-    border-radius:5px; 
-    border:1px solid #000;
-    margin-left: 130px; 
- }
- .heading{
-    text-align: center;
-    color:rgb(33, 33, 186);
-    font-size:50px;
- }
+
+.navbar{
+	height: 170px;
+	width: 1143px;
+	background-color: #0dcaf0;
+	color: white;
+	display: flex;
+	margin-top: 0;
+	font-weight: 50px;
+
+}
+
+body{
+	font-family: aerial;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-width: 100vh;
+	height: 100;
+	display: inline-block;
+
+}
+
+.container{
+	font-family:"sans-serif";
+	font-weight: 300;
+	max-width: 300px;
+	border-radius: 10px;
+	margin: 100px;
+height: auto;
+background-color: light lavender;
+
+}
+image{
+	max-width: 350px;
+	float: left;
+}
+.text{
+	color: black;
+	float: inline-end;
+	color: black;
+
+}
+.text h2{
+	font-size: 50px;
+
+padding: 5px;
+}
+.text p{
+	font-size: 20px;
+}
+
+
+	h2{
+		
+		font-family: sans-serif;
+		font-size: 80px;
+		font-weight: 500px;
+		text-align: center;
+		
+	}
+	.container{
+		background-color: light lavender;
+	}
